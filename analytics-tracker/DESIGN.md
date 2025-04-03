@@ -2,14 +2,14 @@
 
 ## Content 
 
-For a piece of content, what is the total and distribution of likes, views, shares, and comments across all platforms? 
+For a piece of content, what is the total and distribution of likes, views, shares, and comments across all platforms? On each platform, what is its title, hashtags, sponsorship status, ad status, date posted, and additional notes? 
 
 For a piece of content, what is the production cost, revenue (ad revenue or sponsorship), and profit made per platform? 
 
 How many pieces of content did I post in the last X days, months, years, per platform? 
 
 Filtering and sorting (AND operation): 
-- Sort content by highest views, highest revenue, and most recently posted. 
+- Sort content by highest views, highest revenue, alphabetic by title, and most recently posted (default). 
 - Filter content by sponsored or not. 
 - Range of views (lower and upper bound). 
 - Range of revenue (lower and upper bound). 
@@ -28,17 +28,36 @@ Compare content performance (likes, views, shares, comments) based on content ty
 
 What factors affect "virality"? Give basic feedback based on data. Ex: "Content with the theme X is more likely to go viral in the last month based on data from Y."
 
+What type (based on tag) of content is most likely to go viral on each platform, historically? Display graph of tags vs views/likes/income for each piece of content. 
+
 How does posting time affect a content's engagement? What is the optimal posting time for each platform? 
+
+Select multiple (2 or more) pieces of content and see aggregated data analytics on only the selected items. Compare and contrast content performance across platforms. 
+
+Allow either manual input for video analytics or automatic poll from platform (if API is available). 
+
+Polling analytics from platform: 
+- If video is older than X days and currently not viral, batch poll analytics from respective platforms. 
+- If video is posted within last 24h, do more frequent polling. If video is posted within last X days, do semi-frequent polling. 
+- If video is currently viral (regardless of posting date) do more frequent polling. 
+- (Optional:) click the "update now" button to poll analytics for current video immediately. 
+In this context, "virality" can be defined as "the difference between the last 2 poll results is greater than Y% of the total views". Condiferations: limited API tokens per day. 
+
+Display total follower count per platform. 
 
 ## Monetization 
 
 What is the total production cost, revenue (ad revenue or sponsorship), and profit made in the last X hours, days, months, years, per platform? 
+
+What is my total revenue and profit over the last X days, months, years, per platform? On which videos did I spend the most on? 
 
 ## General 
 
 Breakdown into Overview, Insights, Notes, Settings. Insights should contain further breakdown into Dashboard, Content, Analytics, and Monetization. 
 
 Be able to make a new account or login, log out, change password, transfer account, and delete account. 
+
+Be able to securely connect analytics tracker account to Instagram, YouTube, Facebook, TikTok, Snapchat, (or other platforms). Also allows for custom platforms (manual input) if API is not currently supported. 
 
 ## Generating content ideas (notes) 
 
@@ -51,8 +70,6 @@ Schedule a posting reminder. Given a sponsored post (or usual post) to be posted
 Which piece(s) of content are currently going viral, by some definition of "virality"? 
 
 Predict what type of content is most likely to go viral based on current time/season, trends, previous content data, last X videos posted, and viral content from top creators or creators in the same niche etc.
-
-Select multiple pieces of content and see aggregated data analytics on only the selected items. 
 
 Who is my main audience on each platform (age, gender, geographical location), and what similar content do they watch? 
 
@@ -69,6 +86,10 @@ Share account access with a team, with view/edit permissions.
 Track and log changes and updates made to account - dates and times that new content was added, etc. 
 
 Gauge how positive or negative the audience reaction is on each post based on comments/keywords. 
+
+Retrieve comments to parse number of @ tags (as one potential measure of interest in content). 
+
+Given a video's current analytics, extrapolate information about its predicted analytics - given a video with X views/likes/comments/shares, how many views/likes/comments/shares will it have in Y hours/days? 
 
 # TODO 
 
