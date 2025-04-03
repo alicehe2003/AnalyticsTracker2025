@@ -20,13 +20,19 @@ Breakdown into Overview, Insights, Notes, Settings. Insights should contain furt
 
 Be able to make a new account, change password, transfer account, and delete account. 
 
+Be able to add a new content, tracking its revenue/expenses and analytics on an arbitrary number of platforms. Be able to delete an existing piece of content from the set of all content being tracked. 
+
+Be able to add a new platform on which content is posted to, to track content performance on that specific platform. 
+
+Be able to see content performance separated by platform and aggregated across an arbitrary number of platforms - compare performance across X number of selected platforms. 
+
 # User stories - non-priority 
 
 Which piece(s) of content are currently going viral, by some definition of "virality"? 
 
 Predict what type of content is most likely to go viral based on current time/season, trends, previous content data, last X videos posted, etc. 
 
-
+Select multiple pieces of content and see aggregated data analytics on only the selected items. 
 
 
 
