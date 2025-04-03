@@ -38,7 +38,7 @@ What is the total production cost, revenue (ad revenue or sponsorship), and prof
 
 Breakdown into Overview, Insights, Notes, Settings. Insights should contain further breakdown into Dashboard, Content, Analytics, and Monetization. 
 
-Be able to make a new account, change password, transfer account, and delete account. 
+Be able to make a new account or login, log out, change password, transfer account, and delete account. 
 
 ## Generating content ideas (notes) 
 
@@ -61,6 +61,14 @@ What is the click-through or conversion rate from affiliate links in video descr
 Export all data as PDF/CSV. 
 
 Generate new content ideas based on type of content posted and top performing content from other creators. 
+
+Multiple accounts support, for creators with different brands or channels. 
+
+Share account access with a team, with view/edit permissions. 
+
+Track and log changes and updates made to account - dates and times that new content was added, etc. 
+
+Gauge how positive or negative the audience reaction is on each post based on comments/keywords. 
 
 # TODO 
 
